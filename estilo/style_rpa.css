@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --cor0:#ebe5c5;
+    --cor1:#1C5A94;
+    --cor2:#032c53;
+    --cor3:#01012d;
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", cursive;
+    --fonte3: "Sriracha", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: black; 
+    height:700px
+}
+
+
+@keyframes animacao {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animarcontent {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+body, html {
+    background-color: black; 
+    height: 800px;
+}
+
+header {
+    background-color: black;
+}
+
+header p {
+    max-width: 90%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin: auto;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+header img {
+    max-width: 100%;
+}
+
+main {
+    background-color: black;
+    height: 100%;
+    padding-bottom: 450px;
+}
+
+main h1 {
+    font-family: var(--fonte2);
+    font-size: 1.9em;
+    color: #0978df;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.353);
+    padding: 20px 20px 0px 20px
+
+    
+}
+
+
+#card-rpa {
+    background-color: rgb(0, 0, 0);
+    height: 380px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 50px auto 0px auto;
+    border-top: 3px solid rgba(218, 3, 3, 0.977);
+    border-bottom: 5px solid rgba(218, 3, 3, 0.977);
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+#content-aplicativo {
+    background-color: transparent;
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 0px;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateX(-60px);
+    opacity: 0;
+}
+
+#content-video {
+    background-color: transparent;
+    margin-top: 30px;
+    & h1{
+        font-family: var(--fonte1);
+        font-size: 1em;
+        color: white;
+        max-width: 350px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    & iframe{
+        max-width: 350px;
+    }
+    & p{
+        text-align: center;
+    }
+}
+
+#content-modulos-app {
+    margin-top: 100px;
+}
+
+#content-modulos-esf {
+    margin-top: 60px;
+}
+
+#mod-esf {
+    margin-top: 120px;
+}
+
+div.modulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(218, 3, 3, 0.977);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: underline overline;
+    padding-top: 60px;
+
+    & p {
+        animation-name: animacao;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+}
+
+div.aplicativo {
+    background-color: transparent;
+    text-align: center;
+}
+
+div.aplicativo img {
+    max-width: 180px;
+    margin-left: 8px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#esf {
+    max-width: 200px;
+    margin-bottom: 0px;
+}
+
+div.link {
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+
+div.link a {
+    font-family: var(--fonte1);
+    text-decoration: none;
+    background-color: #0c75d6;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0d8aff;
+    transition: .3s;
+}
+
+div.link a:hover {
+    background-color: #0d8aff;
+    box-shadow: 0px 0px 10px #47a3f9;
+}
+
+
+div.modulos p {
+    text-align: center;
+}
+
+div.modulos a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    color: rgba(218, 3, 3, 0.977);
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+div.modulos a:hover {
+    color: rgba(218, 3, 3, 0.977);
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte1);
+    text-align: center;
+
+    & p {
+        max-width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto;
+        border-top: 1px solid white;
+    }
+
+    & a {
+            font-family: var(--fonte1);
+            color: white;
+            text-decoration: none;
+        }
+    }

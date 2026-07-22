@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --cor0:#ebe5c5;
+    --cor1:#1C5A94;
+    --cor2:#032c53;
+    --cor3:#01012d;
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", cursive;
+    --fonte3: "Sriracha", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@keyframes animacao {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animarcontent {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+body, html {
+    background-color: black; 
+    height: 700px;
+}
+
+header {
+    background-color: black;
+}
+
+header p {
+    max-width: 90%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin: auto;
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+header img {
+    max-width: 100%;
+}
+
+main {
+    background-color: black;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 72px;
+}
+
+main p {
+    text-align: center;
+}
+
+div.modulos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: transparent;
+    width: 280px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.374);
+    border-top: 7px solid var(--cor1);
+    border-bottom: 7px solid var(--cor1);
+
+}
+
+#anim {
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+#content1 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+#content2 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+#content3 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+#content4 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+
+#content5 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: .9s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+
+#content6 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+
+#content7 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+#content8 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+#content9 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+#content10 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+#content11 {
+    animation-name: animarcontent;
+    animation-duration: 3s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+div.modulos p {
+    margin: 20px 0px 20px 0px;
+}
+
+div.modulos a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+div.modulos a:hover {
+    color: rgba(218, 3, 3, 0.977);
+    transition: 0.5s;
+    
+}
+    
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte1);
+    text-align: center;
+
+    & p {
+        max-width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto;
+        border-top: 1px solid white;
+    }
+
+    & a {
+            font-family: var(--fonte1);
+            color: white;
+            text-decoration: none;
+        }
+    }
