@@ -3,41 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/v_vivver_sf.ico" type="image/x-icon">
     <title>ACE MOBILE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
-        <div class="text-center container-fluid">
-            <img src="imagens/logo.png" alt="logo" class="rounded mx-auto d-block" style="max-width: 100%;">
-            <hr class="container">
-        </div>
-    <div class="card container mt-5 mb-5 pb-4" style="min-width: 20rem; max-width: 30rem;">
-        <div class="card-body"></div>
-            <legend class="text-center fw-light mb-3">MANUAL ACE MOBILE</legend>
-            <div class="list-group">
-                <a href="modulos/download.html" class="list-group-item list-group-item-action list-group-item-primary text-center">DOWNLOAD ACE MOBILE</a>
-                <!-- <a href="cadastrar_usuario.html" class="list-group-item list-group-item-action list-group-item-primary text-center">CADASTRAR USUÁRIO</a> -->
-                <a href="cadastrar_imovel.html" class="list-group-item list-group-item-action list-group-item-primary text-center">CADASTRAR IMÓVEL</a>
-                <a href="alterar_imovel.html" class="list-group-item list-group-item-action list-group-item-primary text-center">ALTERAR IMÓVEL</a>
-                <a href="alteracoes.html" class="list-group-item list-group-item-action list-group-item-primary text-center">REGISTRAR VISITA</a>
-                <a href="correcao_erros.html" class="list-group-item list-group-item-action list-group-item-primary text-center">CORREÇÃO DE ERRO</a>
-                <a href="data_hora.html" class="list-group-item list-group-item-action list-group-item-primary text-center">DATA E HORA</a>
-                <a href="orientacoes.html" class="list-group-item list-group-item-action list-group-item-primary text-center">ORIENTAÇÕES</a>
+<body>
+    <header>
+        <img src="static/img/logo.png" alt="logoVivver">
+    </header>
+    <main>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
             </div>
         </div>
-    </div>
-    <hr class="container">
-    <div style="margin-top: 50px;" >
-        <legend class="text-center">Você Precisa de Suporte?</legend>
-        <p class="text-align: left;">
-            <address class="text-center">
-                <strong>Contatos Vivver</strong><br>
-                Ramais: 2211-4349 / 2211-4370<br>
-                Email: montesclaros@vivver.com.br
-            </address>
-        </p>
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </main>
+    <footer>
+        (38)2211-4349
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
