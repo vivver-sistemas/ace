@@ -4,3 +4,12 @@ body {
     background: linear-gradient(135deg, #EAF6FF 0%, #CFE9FF 50%, #B8E0FF 100%);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#imgLogo {
+    max-width: 100%;
+}
+
+
+#cardAccordion {
+    max-width: 80%;
+}
