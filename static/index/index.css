@@ -13,3 +13,12 @@ body {
 #cardAccordion {
     max-width: 80%;
 }
+
+
+.accordion-item {
+    transition: opacity .2s ease;
+}
+
+.accordion-item.transparente {
+    opacity: 0.1;
+}
