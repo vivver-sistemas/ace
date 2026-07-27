@@ -12,3 +12,8 @@ video {
 #imgLogo {
     max-width: 100%;
 }
+
+h1 {
+    color: black;
+    text-decoration: underline;
+}

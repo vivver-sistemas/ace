@@ -28,3 +28,8 @@ video {
     border: none;
     text-align: center;
 }
+
+h1 {
+    color: black;
+    text-decoration: underline;
+}
